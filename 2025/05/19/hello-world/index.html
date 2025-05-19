@@ -389,19 +389,6 @@
 
     </article>
     
-    <div class="read-nums">
-      <!-- id 将作为查询条件 -->
-      <span id="2025/05/19/hello-world/" class="leancloud_visitors" data-flag-title="Your Article Title">
-        <em class="post-meta-item-text">浏览量</em>
-        <i class="leancloud-visitors-count"></i>
-      </span>
-    </div>
-    <div class="comments-intro">
-      <h2>评论区</h2>
-      <p>欢迎你留下宝贵的意见，昵称输入QQ号会显示QQ头像哦~</p>
-    </div>
-    <div id="vcomments" class="vcomments"></div>
-    
   </div>
   <div class="article-catelogue">
     <div class="article-catelogue--wrapper">
@@ -414,22 +401,6 @@
   </div>
 </div>
 
-
-<script>
-  // var定义，避免pjax重新进来造成的重复声明错误
-  var config = JSON.parse('{"enable":true,"appId":"Pf8zCXGEH1qsprnWfikVVujL-gzGzoHsz","appKey":"qOqoiUHhH1TGtLRUYURkLRQX","placeholder":"禁言中~","meta":["nick"],"recordIP":true,"visitor":true,"enableQQ":true}')
-  new Valine({
-    el: '#vcomments',
-    appId: config.appId,
-    appKey: config.appKey,
-    placeholder: config.placeholder,
-    meta: config.meta,
-    recordIP: config.recordIP,
-    visitor: config.visitor,
-    enableQQ: config.enableQQ,
-    path: '2025/05/19/hello-world/'
-  })
-</script>
 
 
 <script>
@@ -471,11 +442,6 @@
     <div class="operate-item backtop">
       <i class="iconfont icon-huidaodingbu"></i>
       <span>回到顶部</span>
-    </div>
-    
-    <div class="operate-item turn-comment hidden">
-      <i class="iconfont icon-pinglun"></i>
-      <span>查看评论</span>
     </div>
     
   </div>
